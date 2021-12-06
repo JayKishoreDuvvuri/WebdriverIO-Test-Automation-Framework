@@ -2,8 +2,8 @@
 
 Designed page object design pattern test automation framework on
 
-OS : macOS
-IDE : Visual Studio Code
+* OS  : macOS
+* IDE : Visual Studio Code
 
 ## Run application
 Clone (OR) Download the repository as zip folder
