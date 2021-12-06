@@ -1,0 +1,122 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Check the title and url of the Landing Page",
+    "uid" : "fa39fb7fb88e0082",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144819890,
+      "stop" : 1610144821228,
+      "duration" : 1338
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Type 'möbel' in Search Input and see list of products ",
+    "uid" : "1257c0e4a703acba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144821229,
+      "stop" : 1610144823394,
+      "duration" : 2165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Click on the wishlist icon of the first product",
+    "uid" : "20268f59dbc1ada3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144823394,
+      "stop" : 1610144824126,
+      "duration" : 732
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Verify the login/registration overlay and click 'Hier einloggen' link",
+    "uid" : "5c0b807ca9220d9f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144824126,
+      "stop" : 1610144824479,
+      "duration" : 353
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Enter Login Credentials and click login submit button",
+    "uid" : "112e8c6f202b9b6c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144824479,
+      "stop" : 1610144824940,
+      "duration" : 461
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Verify wishlist icon on the product is filled in",
+    "uid" : "a666cb48d8bcb995",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144824941,
+      "stop" : 1610144826173,
+      "duration" : 1232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Verify wishlist counter in the website header shows 1",
+    "uid" : "aa24f2fafbf5f7cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144826173,
+      "stop" : 1610144826249,
+      "duration" : 76
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Verify User is navigated to WishlistPage and check the product image visible",
+    "uid" : "7f6b414c49611db9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144826250,
+      "stop" : 1610144827122,
+      "duration" : 872
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Verify product is deleted from wishlist and check the list empty message",
+    "uid" : "3a111e99273e85d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610144827122,
+      "stop" : 1610144828225,
+      "duration" : 1103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  } ]
+}

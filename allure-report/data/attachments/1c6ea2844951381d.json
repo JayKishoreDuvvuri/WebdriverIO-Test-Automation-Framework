@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[local-name()='svg' and @data-filled='true']"
+}

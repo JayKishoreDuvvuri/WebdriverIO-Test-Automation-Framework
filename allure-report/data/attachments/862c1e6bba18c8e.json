@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[@class='wishlistNoProducts__text wishlistNoProducts__text_bold']"
+}

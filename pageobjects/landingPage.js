@@ -1,0 +1,18 @@
+module.exports = {
+  navBarMain: "#main-nav__desktop",
+  searchBarMain: "//div[@data-testid='nav-search']",
+  bookMarks: "#nav-bookmarks-button",
+  launcher: "#nav-launcher-button",
+  notifications: "#nav-notifications-button",
+  profile: "(//button[@id='nav-profile-button'])[1]",
+  myStreamLabel: "//h2[normalize-space()='My Stream']",
+  myStreamPublishedByAndDate: "(//div[@data-testid='publishedByAndDate'])[1]",
+  myNewsLabel: "//h2[normalize-space()='My News']",
+  myNewsPublishedByAndDate: "(//div[@data-testid='publishedByAndDate'])[9]",
+  channelsButton: "#nav-channels-button",
+  channelsLabel: "//p[@class='src__TextEpsilon-sc-4zr4wi-5 YkWjO']",
+  channelsSearchBar: "#nav-channels-search",
+  searchBarText: "Interview Channel",
+  interviewChannelText: "//mark[text()='Interview Channel']",
+  signOut: "//p[text()='Sign out']",
+};

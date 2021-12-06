@@ -1,0 +1,227 @@
+{
+  "uid" : "fa39fb7fb88e0082",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Add and Delete Product from the WishList.Check the title and url of the Landing Page",
+  "historyId" : "94780e0d1750b5ed19da2cac1047915e",
+  "time" : {
+    "start" : 1610144819890,
+    "stop" : 1610144821228,
+    "duration" : 1338
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1610144819891,
+        "stop" : 1610144821226,
+        "duration" : 1335
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1610144819893,
+          "stop" : 1610144821217,
+          "duration" : 1324
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1610144819899,
+            "stop" : 1610144820064,
+            "duration" : 165
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "GET /session/:sessionId/url",
+            "time" : {
+              "start" : 1610144819903,
+              "stop" : 1610144820054,
+              "duration" : 151
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "1739c30713435019",
+              "name" : "Response",
+              "source" : "1739c30713435019.json",
+              "type" : "application/json",
+              "size" : 58
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "3cca19a0dc6b5f38",
+            "name" : "Request",
+            "source" : "3cca19a0dc6b5f38.json",
+            "type" : "application/json",
+            "size" : 42
+          }, {
+            "uid" : "6d2f5b6d7b73e4ab",
+            "name" : "Response",
+            "source" : "6d2f5b6d7b73e4ab.json",
+            "type" : "application/json",
+            "size" : 2057
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1610144820073,
+            "stop" : 1610144821189,
+            "duration" : 1116
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e015dce5e90e6d15",
+            "name" : "Request",
+            "source" : "e015dce5e90e6d15.json",
+            "type" : "application/json",
+            "size" : 60
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "58151e4f5548d476",
+          "name" : "Request",
+          "source" : "58151e4f5548d476.json",
+          "type" : "application/json",
+          "size" : 60
+        }, {
+          "uid" : "35552dd3b4aadd08",
+          "name" : "Response",
+          "source" : "35552dd3b4aadd08.json",
+          "type" : "application/json",
+          "size" : 29
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/title",
+        "time" : {
+          "start" : 1610144821217,
+          "stop" : 1610144821219,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "89ae529b257f184f",
+          "name" : "Response",
+          "source" : "89ae529b257f184f.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1610144821221,
+          "stop" : 1610144821226,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "51d7976e1f48e0d7",
+          "name" : "Request",
+          "source" : "51d7976e1f48e0d7.json",
+          "type" : "application/json",
+          "size" : 5893
+        }, {
+          "uid" : "2cc504b32b8a7a39",
+          "name" : "Response",
+          "source" : "2cc504b32b8a7a39.json",
+          "type" : "application/json",
+          "size" : 49
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "testClass",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa39fb7fb88e0082.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

@@ -1,0 +1,224 @@
+{
+  "uid" : "aa24f2fafbf5f7cf",
+  "name" : "Verify wishlist counter in the website header shows 1",
+  "fullName" : "Add and Delete Product from the WishList.Verify wishlist counter in the website header shows 1",
+  "historyId" : "9d6734454c0038cd7b354b4cd7b63f99",
+  "time" : {
+    "start" : 1610144826173,
+    "stop" : 1610144826249,
+    "duration" : 76
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1610144826174,
+        "stop" : 1610144826187,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4a5cbd812840a7",
+        "name" : "Request",
+        "source" : "a4a5cbd812840a7.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "eb07b87bec9d994a",
+        "name" : "Response",
+        "source" : "eb07b87bec9d994a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1610144826188,
+        "stop" : 1610144826203,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "911aabddd0e2a08b",
+        "name" : "Request",
+        "source" : "911aabddd0e2a08b.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "a0193610e2374dba",
+        "name" : "Response",
+        "source" : "a0193610e2374dba.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1610144826205,
+        "stop" : 1610144826214,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a503ce9a80ef0e1d",
+        "name" : "Request",
+        "source" : "a503ce9a80ef0e1d.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "473b0a69c1a90f3",
+        "name" : "Response",
+        "source" : "473b0a69c1a90f3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1610144826214,
+        "stop" : 1610144826225,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f50fbe735e64cccf",
+        "name" : "Request",
+        "source" : "f50fbe735e64cccf.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "a5d1c90cd502d99b",
+        "name" : "Response",
+        "source" : "a5d1c90cd502d99b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1610144826226,
+        "stop" : 1610144826234,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52008b9a2ee5dd18",
+        "name" : "Request",
+        "source" : "52008b9a2ee5dd18.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "7a90ec8bb89bc7ad",
+        "name" : "Response",
+        "source" : "7a90ec8bb89bc7ad.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/fdd3c2e1-a78d-423c-8a55-5eea1e15019c/text",
+      "time" : {
+        "start" : 1610144826234,
+        "stop" : 1610144826249,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7286a48a91f1ef4d",
+        "name" : "Response",
+        "source" : "7286a48a91f1ef4d.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "testClass",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify wishlist counter in the website header shows 1"
+  }, {
+    "name" : "package",
+    "value" : "Add and Delete Product from the WishList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa24f2fafbf5f7cf.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

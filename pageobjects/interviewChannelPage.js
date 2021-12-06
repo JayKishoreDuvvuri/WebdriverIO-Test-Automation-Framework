@@ -1,0 +1,36 @@
+module.exports = {
+  interviewChannelHeaderTitle: "//h1[@data-testid='channel-header']",
+  postsButton: "//li[text()='Posts']",
+  burgerButton: "(//button[@aria-label='Post actions menu'])[1]",
+  viewPostOption: "//p[text()='View post']",
+  editPostOption: "//p[text()='Edit post']",
+  post: "#post-72313529",
+  interviewAccountTwoLabel: "//div[@data-testid='publishedByAndDate']",
+  interviewChannelLabel:
+    "//div[@data-testid='publishedLocationAndCreatorFullName']",
+  reactions: "button[aria-label='Reactions']",
+  reactionHaHa: "a[aria-label='Ha ha']",
+  reactionUnderPost: "//span[@class='sc-iiCSmI iKpeIf']",
+  reactionNumberDisplayedAsOne:
+    "//p[@class='src__TextEta-sc-4zr4wi-7 sc-kOyqGX khFHCE eOTonA']",
+  postReactionIcon: "//span[@class='sc-gcVIGZ fpQKWg']",
+  postReactiontext: "//p[contains(text(),'Ha ha')]",
+  reactionIconPresent: "//div[@class='sc-fgyOaY yHNTD']",
+  removeReaction: "//div[@class='sc-gWDJhD etVCaZ']",
+  cancelButton: "//p[text()='Cancel']",
+  postOptionsButton: "//p[text()='Post options']",
+  updateButton: "//p[text()='Update']",
+  shareAsAnnouncementOption: "//p[text()='Share as an announcement']",
+  shareAsAnnouncementTitle:
+    "//h2[normalize-space()='Share as an announcement']",
+  shareAnnouncementText:
+    "//p[@class='src__TextEpsilon-sc-4zr4wi-5 sc-hAWBJg iFOXYw iZYSyC']",
+  announcementExpiryLabel: "//p[text()='Announcement expiry']",
+  announcementDropDown: "#react-select-2-input",
+  shareButton: "//p[text()='Share']",
+  areYouSureLabel: "//h2[text()='Are you sure?']",
+  areYouSureMessage: "p.src__TextEpsilon-sc-4zr4wi-5.sc-hAWBJg.iFOXYw.iZYSyC",
+  announcementTab: "//li[text()='Announcements']",
+  announcementBoxLabel: "(//p[text()='Announcement'])[1]",
+  announcementBoxMessage: "//p[text()='This is for Testing!']",
+};

@@ -1,0 +1,91 @@
+[ {
+  "uid" : "a666cb48d8bcb995",
+  "name" : "Verify wishlist icon on the product is filled in",
+  "time" : {
+    "start" : 1610144824941,
+    "stop" : 1610144826173,
+    "duration" : 1232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1257c0e4a703acba",
+  "name" : "Type 'möbel' in Search Input and see list of products ",
+  "time" : {
+    "start" : 1610144821229,
+    "stop" : 1610144823394,
+    "duration" : 2165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f6b414c49611db9",
+  "name" : "Verify User is navigated to WishlistPage and check the product image visible",
+  "time" : {
+    "start" : 1610144826250,
+    "stop" : 1610144827122,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa24f2fafbf5f7cf",
+  "name" : "Verify wishlist counter in the website header shows 1",
+  "time" : {
+    "start" : 1610144826173,
+    "stop" : 1610144826249,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa39fb7fb88e0082",
+  "name" : "Check the title and url of the Landing Page",
+  "time" : {
+    "start" : 1610144819890,
+    "stop" : 1610144821228,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20268f59dbc1ada3",
+  "name" : "Click on the wishlist icon of the first product",
+  "time" : {
+    "start" : 1610144823394,
+    "stop" : 1610144824126,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "112e8c6f202b9b6c",
+  "name" : "Enter Login Credentials and click login submit button",
+  "time" : {
+    "start" : 1610144824479,
+    "stop" : 1610144824940,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a111e99273e85d1",
+  "name" : "Verify product is deleted from wishlist and check the list empty message",
+  "time" : {
+    "start" : 1610144827122,
+    "stop" : 1610144828225,
+    "duration" : 1103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c0b807ca9220d9f",
+  "name" : "Verify the login/registration overlay and click 'Hier einloggen' link",
+  "time" : {
+    "start" : 1610144824126,
+    "stop" : 1610144824479,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[@data-testid='login_reg_switch_btn']"
+}

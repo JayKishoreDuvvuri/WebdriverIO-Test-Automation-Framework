@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@data-testid='long-register-password-field']"
+}
