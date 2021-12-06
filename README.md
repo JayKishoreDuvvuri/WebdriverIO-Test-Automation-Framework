@@ -1,7 +1,9 @@
 # WebDriverIO - Javascript Test Automation Framework
 
-Design Page Objects and run Tests
+Designed page object design pattern test automation framework on
 
+OS : macOS
+IDE : Visual Studio Code
 
 ## Run application
 Clone (OR) Download the repository as zip folder
