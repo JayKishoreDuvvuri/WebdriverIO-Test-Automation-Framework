@@ -43,7 +43,7 @@ npm run clean  - Run on Terminal to remove the existing reports
 
 
 ### Execute tests
-Run the below test command on other separate terminal side by side next to running selenium server from above point "Start Selenium Serve" 
+Run the below test command on other separate terminal side by side next to running selenium server from above point "Start Selenium Server" 
 ```bash
 npm run test -  3 Tests executes in parallel on Chrome browser
 npm run test:addReaction - Runs only single test
