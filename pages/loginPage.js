@@ -28,9 +28,5 @@ class loginPage extends basePage {
   async logoVisible() {
     return await this.elementIsVisible(logo);
   }
-
-  async closeBrowser() {
-    return super.closeBrowser();
-  }
 }
 export default new loginPage();
