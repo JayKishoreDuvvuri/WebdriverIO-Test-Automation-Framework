@@ -66,7 +66,9 @@ npm run test:addNewPage  - Runs only single test
     │
     │ 
     ├── test                                # Test suite
-    │    ├── wishList.spec.js               # Automated Test Script
+    │    ├──TC_01_addReaction.spec.js       # Automated Test Script
+    │    ├──TC_02_publishPost.spec.js       # Automated Test Script
+    │    ├──TC_03_addNewPage.spec.js        # Automated Test Script
     │
     │
     ├── pageobjects                          # Page Objects file
