@@ -47,7 +47,7 @@ Run the below test command on other separate terminal side by side next to runni
 ```bash
 npm run test -  3 Tests executes in parallel on Chrome browser
 npm run test:addReaction - Runs only single test
-npm run test:publishPost - Runs only single test 
+npm run test:publishPost - Runs only single test  
 npm run test:addNewPage  - Runs only single test                 
 ```
 
